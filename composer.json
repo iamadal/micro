@@ -1,10 +1,11 @@
 {
-    "name": "router/router",
-    "description": "Secure routing system for php",
-    "license": "GNU",
+    "name": "micro/micro",
+    "description": "Micro framework for php",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Router\\Router\\": "src/"
+            "Micro\\Micro\\": "src/"
         }
     },
     "authors": [

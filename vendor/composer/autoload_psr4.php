@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Router\\Router\\' => array($baseDir . '/src'),
+    'Micro\\Micro\\' => array($baseDir . '/src'),
 );

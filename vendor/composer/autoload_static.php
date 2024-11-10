@@ -9,12 +9,12 @@ class ComposerStaticInitcd7b7dc647f97c817f530b0729bc5e36
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'Micro\\Micro\\' => 12,
+            'Micro\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Micro\\Micro\\' => 
+        'Micro\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

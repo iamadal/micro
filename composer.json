@@ -1,11 +1,11 @@
 {
-    "name": "micro/micro",
+    "name": "iamadal/micro",
     "description": "Micro framework for php",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Micro\\Micro\\": "src/"
+            "Micro\\": "src/"
         }
     },
     "authors": [

@@ -1,12 +1,15 @@
 {
     "name": "iamadal/micro",
-    "description": "Micro framework for php",
+    "description": "Micro framework for PHP with routing and middleware.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Micro\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=7.4"
     },
     "authors": [
         {
@@ -15,5 +18,18 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "prefer-stable": true,
+    "homepage": "https://github.com/iamadal/micro",
+    "keywords": [
+        "php",
+        "micro-framework",
+        "routing",
+        "middleware"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iamadal/micro"
+        }
+    ]
 }
